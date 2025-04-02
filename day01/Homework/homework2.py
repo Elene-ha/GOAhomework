@@ -26,14 +26,4 @@ print(type(height))
 print(type(knows_programming))
 
 
-print(name + "  " + str (age))
-
-
-
-
-
-
-
-
-
-      
+print(name+)
