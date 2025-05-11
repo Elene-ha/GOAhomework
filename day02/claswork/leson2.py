@@ -1,0 +1,5 @@
+print(5+8)
+print(8*7)
+print(6/3)
+print(10//3)
+print(57-18)
