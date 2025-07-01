@@ -1,5 +1,5 @@
-name = input("ჩემი  სახელი:ელენე ")
-surname = input(" ჩემი გვარი:ეფფგ ")
-age = input("ჩემი  ასაკი:999 ")
+name = input("შეიყვანეთ თქვენი სახელი: ")
+surname = input("შეიყვანეთ თქვენი გვარი: ")
+age = input("შეიყვანეთ თქვენი ასაკი: ")
 
 print("მე ვარ", name, surname, age, "წლის")

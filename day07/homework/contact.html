@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <title>კონტაქტი</title>
+</head>
+<body class="white-back">
+
+
+  <!--  სექცია პირველი - ჰედერი-->
+
+<header>
+<nav>
+<h1 id="logo"><a href="index.html">იმერეთი</a></h1>
+<ul>
+<li><a href="index.html">მთავარი</a></li>
+<li><a href="about.html">ჩვენ შესახებ</a></li>
+<li><a href="blog.html">ბლოგი</a></li>
+<li><a href="contact.html">კონტაქტი</a></li>
+</ul>
+</nav>
+</header>
+
+<div class="contact-container">
+    <h1>კონტაქტი</h1>
+
+    <div class="contact-info">
+      <h2>ჩვენი საკონტაქტო ინფორმაცია</h2>
+      <p><strong>ტელეფონი:</strong> +995 599 123 456</p>
+      <p><strong>ელ-ფოსტა:</strong> info@imereti.ge</p>
+      <p><strong>მისამართი:</strong> თბილისი, საქართველო, თავისუფლების ქ. 10</p>
+    </div>
+
+    <form action="#" method="post" class="contact-form">
+      <label for="name">სახელი:</label>
+      <input type="text" id="name" name="name" placeholder="შეიყვანეთ თქვენი სახელი" required>
+
+      <label for="email">ელ-ფოსტა:</label>
+      <input type="email" id="email" name="email" placeholder="შეიყვანეთ თქვენი ელ-ფოსტა" required>
+
+      <label for="message">მესიჯი:</label>
+      <textarea id="message" name="message" rows="5" placeholder="წერილი..." required></textarea>
+
+      <button type="submit">გაგზავნა</button>
+    </form>
