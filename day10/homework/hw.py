@@ -76,20 +76,20 @@ print(y)        # 3
 # მაგალითი 3: int ➝ float
 
 x = 8
-y = float(x)    # გადავაქციეთ float-ად
+y = float(x)    # გადარი"
+
+# მაგალითი 5: list ➝ tuple
+
+x = [1, 2, 3]
+y = tuple(x)    
+print(y)        # (1, 2, 3)
+# გადავაქციეთ float-ად
 print(y)        # 8.0
 
 # მაგალითი 4: int ➝ str
 x = 100
 y = str(x) + " ლარი"
-print(y)        # "100 ლარი"
-
-# მაგალითი 5: list ➝ tuple
-
-x = [1, 2, 3]
-y = tuple(x)    # გადავაქციეთ ტუპლად
-print(y)        # (1, 2, 3)
-
+print(y)        # "100 ლარი 
 # დავალება - 5 
 
 # Concatenation ნიშნავს მონაცემების შეერთებას ერთმანეთთან
@@ -103,6 +103,8 @@ print(a + " " + b)
 age = 9999
 print("I am " + str(age) + " years old") 
 
+# დავალება - 6
+
 birth_year = int(input("შეიყვანეთ თქვენი დაბადების წელი: "))
 
 # მიმდინარე წლის მიღება
@@ -115,15 +117,18 @@ age = current_year - birth_year
 # შედეგის დაბეჭდვა
 print("თქვენ ხართ", age, "წლის")
 
-# დავალება - 6
+# დავალება - 7
  
 name ="snake"
 surname ="....."
 age = 999
 height = 1.99  
 address = "საქართველო"
-sentence = "მე ვარ " + name + " " + surname + ", ასაკი მაქვს " + str(age) + " წელი, სიმაღლე " + str(height) + " მეტრი და ვცხოვრობ " + address + "."
+address2 = address + "ში"
+sentence = "მე ვარ " + name + " " + surname + ", ასაკი მაქვს " + str(age) + " წელი, სიმაღლე " + str(height) + " მეტრი და ვცხოვრობ " + address2 + "."
            
-print(sentence)
+print(sentence) 
 
 
+
+print(14 + "km")
