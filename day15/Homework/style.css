@@ -1,0 +1,69 @@
+header {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center; 
+  padding: 10px 30px; 
+}
+
+
+nav ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+
+nav a {
+  text-decoration: none;
+  color: rgb(40, 158, 231);
+  font-weight: bold;
+  
+}
+
+
+#logo {
+  width: 350px;
+  display: block; 
+   
+  
+}
+
+nav ul li a {
+  font-size: 28px;
+}
+
+button {
+  background-color: #89e5fc;
+   margin: 10px;
+   width: 200px;
+  height: 70px;
+  font-size: 20px;   
+}
+
+.satauri {
+  text-align: center;
+  color: blue;
+}
+
+.paragrafi {
+  text-align: center;
+  color: #333;
+  font-weight: bold;
+}
+
+.satauri2{
+     text-align: center;
+  color: rgb(161, 161, 251);
+}
+
+.paragrafi{
+    font-weight: bold;
+    color: rgb(66, 61, 84);
+}
+
+.satauri3{
+    text-align: center;
+  color: rgb(105, 105, 228);
+}
