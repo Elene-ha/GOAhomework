@@ -1,0 +1,30 @@
+.signup-form {
+  width: 300px;
+  margin: 50px auto;
+  padding: 15px;
+  background: white;
+  border: 1px solid #ccc;
+}
+
+h2 {
+  text-align: center;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+}
+
+input, select, button {
+  width: 100%;
+  margin-top: 5px;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+button {
+  background: rgb(239, 49, 11);
+  color: white;
+  border: none;
+  margin-top: 15px
+}

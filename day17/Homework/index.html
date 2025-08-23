@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ტაქსის კომპანის სარეგისტრაციო ფორმა</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="signup-form">
+        <h2>ტაქსის რეგისტრაცია</h2>
+        <form>
+            <label for="name">სახელი და გვარი</label>
+            <input type="text" id="name" name="name">
+
+            <label for="phone">ტელეფონის ნომერი</label>
+            <input type="tel" id="phone" name="phone" placeholder="+995..." required>
+
+            <label for="city">ქალაქი</label>
+            <select name="city" id="city" required>
+                <option value="">აირჩიეთ ქალაქი</option>
+                <option value="Tbilisi">თბილისი</option>
+                <option value="Batumi">ბათუმი</option>
+                <option value="Kutaisi">ქუთაისი</option>
+                <option value="Rustavi">რუსთავი</option>
+            </select>
+
+            <label for="car">მანქანის ბრენდი</label>
+            <select name="car" id="car" required>
+                <option value="">აირჩიეთ მანქანა</option>
+                <option value="toyota">Toyota</option>
+                <option value="hyundai">Hyundai</option>
+                <option value="kia">Kia</option>
+                <option value="mercedes">Mercedes</option>
+                <option value="bmw">BMW</option>
+            </select>
+
+            <label for="color">მანქანის ფერი</label>
+            <select name="color" id="color" required>
+                <option value="">აირჩიეთ ფერი</option>
+                <option value="white">თეთრი</option>
+                <option value="black">შავი</option>
+                <option value="silver">ვერცხლისფერი</option>
+                <option value="blue">ლურჯი</option>
+                <option value="red">წითელი</option>
+            </select>
+
+            
+            <label for="experience">მძღოლის გამოცდილება</label>
+            <select id="experience" name="experience" required>
+                <option value="">აირჩიეთ გამოცდილება</option>
+                <option value="1-2">1-2 წელი</option>
+                <option value="3-5">3-5 წელი</option>
+                <option value="6-10">6-10 წელი</option>
+                <option value="10plus">10+ წელი</option>
+            </select>
+        </form>
+
+     <button>რეგისტრაცია</button>
+
+
+    </div>
+
+</body>
+
+</html>
