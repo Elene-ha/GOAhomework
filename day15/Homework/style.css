@@ -25,22 +25,34 @@ nav a {
 
 #logo {
   width: 350px;
-  display: block; 
    
-  
 }
 
+ 
 nav ul li a {
   font-size: 28px;
+  display: inline-block;
+  padding: 10px 10px;
+  text-decoration: none;
+  color: rgb(20, 27, 26);
+  transition: transform 0.3s ease;
 }
+
+nav ul li a:hover {
+  transform: translateY(-5px); 
+  color: blue;
+}
+
+
 
 button {
   background-color: #89e5fc;
    margin: 10px;
    width: 200px;
   height: 70px;
-  font-size: 20px;   
+  font-size: 20px;
 }
+
 
 .satauri {
   text-align: center;
@@ -67,3 +79,41 @@ button {
     text-align: center;
   color: rgb(105, 105, 228);
 }
+
+.bt-signup {
+  transition: transform 0.3s ease;
+}
+
+.bt-signup:hover {
+  transform: translateY(-5px); 
+}
+
+.bt-login {
+  transition: transform 0.3s ease;
+}
+
+.bt-login:hover {
+  transform: translateY(-5px); 
+}
+
+img {
+  width: 500px;
+  height: auto;
+  border-radius: 20px; 
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+
+img:hover {
+  transform: scale(1.05); 
+  box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+}
+
+.boxi {
+  border: 2px solid gray;
+  padding: 20px;
+  width: 80%;
+  margin: 30px auto;
+  text-align: center;
+}
+

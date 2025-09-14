@@ -131,4 +131,3 @@ print(sentence)
 
 
 
-print(14 + "km")
